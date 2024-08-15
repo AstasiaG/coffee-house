@@ -1,0 +1,16 @@
+@use '../../../styles/components/general';
+
+.contact {
+ @extend .link;
+ color: general.$text-light;
+ display: inline-block;
+ width: fit-content;
+ & img {
+  margin-left: 0;
+  margin-right: 0.8rem;
+ }
+
+ &::after {
+  background-color: general.$text-light;
+ }
+}

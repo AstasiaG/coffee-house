@@ -1,0 +1,43 @@
+@use '../../../styles/components/general';
+
+.footer {
+  max-width: 144rem;
+  width: 100%;
+  padding: 0 4rem;
+  margin: 0 auto 4rem;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    padding: 10rem;
+    background-color: general.$dark;
+    border-radius: 4rem;
+  }
+
+  &__left {
+    width: 53rem;
+
+    &_list {
+      display: flex;
+      gap: 1.2rem;
+    }
+  }
+
+  .title {
+    @include general.title-m;
+    color: general.$text-light;
+    margin-bottom: 4rem;
+
+    & span {
+      @include general.title-m--i;
+      color: general.$text-accent;
+    }
+  }
+
+  .title_s {
+    @include general.title-s;
+    color: general.$text-light;
+    margin-bottom: 4rem;
+  }
+}

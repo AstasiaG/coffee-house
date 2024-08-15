@@ -1,0 +1,107 @@
+@use '../components/general';
+
+
+.hero {
+  position: relative;
+  padding: 10rem;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    & img {
+      border-radius: 4rem;
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 53rem;
+
+    & .title {
+      @include general.title;
+      color: general.$text-light;
+    }
+
+    & .title--i {
+      @include general.title--i;
+      color: general.$text-accent;
+    }
+
+    & .text {
+      @include general.text;
+      color: general.$text-light;
+    }
+  }
+}
+
+.about,
+.mobileApp,
+.favorites {
+  & .title {
+    @include general.title-m;
+    color: general.$black;
+    margin-bottom: 4rem;
+
+    & span {
+      @include general.title-m--i;
+      color: general.$text-accent;
+    }
+  }
+}
+
+.about {
+
+  &__images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+    height: 106rem;
+
+    & img {
+      width: 66rem;
+      height: 59rem;
+      border-radius: 2rem;
+
+      &:not(:first-child,:last-child) {
+        height: 43rem;
+      }
+    }
+  }
+}
+
+.mobileApp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    width: 63rem;
+  }
+  
+  & .text {
+    @include general.text;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+.favorites {
+  .title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}

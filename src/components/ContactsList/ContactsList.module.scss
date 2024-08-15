@@ -1,0 +1,22 @@
+@use '../../styles/components/general';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.time {
+  @extend .link;
+  color: general.$text-light;
+  cursor: default;
+
+  &:after {
+    content: none;
+  }
+
+  & img {
+    margin-left: 0;
+    margin-right: 0.8rem;
+  }
+}

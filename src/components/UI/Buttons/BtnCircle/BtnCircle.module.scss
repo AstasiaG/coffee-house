@@ -1,0 +1,56 @@
+@use '../../../../styles/components/general';
+
+.btnCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border-width: 0.1rem;
+  border-style: solid;
+  cursor: pointer;
+  
+  & svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  &.light {
+    border-color: general.$border-light;
+    transition: background 0.2s ease-in;
+
+    & svg path {
+      stroke: general.$text-light;
+      transition: stroke 0.2s ease-in;
+    }
+  }
+
+  &.dark {
+    border-color: general.$dark;
+    transition: background 0.2s ease-in;
+
+    & svg path {
+      stroke: general.$black;
+      transition: stroke 0.2s ease-in;
+    }
+  }
+
+  &:hover {
+    &.dark {
+      background-color: general.$dark;
+
+      & svg path {
+        stroke: general.$text-light;
+      }
+    }
+
+    &.light {
+      background-color: general.$border-light;
+  
+      & svg path {
+        stroke: general.$black;
+      }
+    }
+  }
+}

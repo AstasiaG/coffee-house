@@ -15,36 +15,24 @@ export const Navbar = () => {
         <nav className={cl.header__nav}>
           <ul className={cl.header__list}>
             <li>
-              <Link
-                to='/'
-                className='link'
-              >
+              <a href='#0' className='link'>
                 Favorite coffee
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to='/'
-                className='link'
-              >
+              <a href='#0' className='link'>
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to='/'
-                className='link'
-              >
+              <a href='#0' className='link'>
                 Mobile app
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to='/'
-                className='link'
-              >
+              <a href='#footer' className='link'>
                 Contact us
-              </Link>
+              </a>
             </li>
           </ul>
           <Link

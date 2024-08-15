@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Irish coffee",
+    "body": "Fragrant black coffee with Jameson Irish whiskey and whipped milk",
+    "price": "7.00",
+    "img": "../img/coffee-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Kahlua coffee",
+    "body": "Classic coffee with milk and Kahlua liqueur under a cap of frothed milk",
+    "price": "7.00",
+    "img": "../img/coffee-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Honey raf",
+    "body": "Espresso with frothed milk, cream and aromatic honey",
+    "price": "5.50",
+    "img": "../img/coffee-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Ice cappuccino",
+    "body": "Cappuccino with soft thick foam in summer version with ice",
+    "price": "5.00",
+    "img": "../img/coffee-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Espresso",
+    "body": "Classic black coffee",
+    "price": "4.50",
+    "img": "../img/coffee-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Latte",
+    "body": "Espresso coffee with the addition of steamed milk and dense milk foam",
+    "price": "5.50",
+    "img": "../img/coffee-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Latte macchiato",
+    "body": "Espresso with frothed milk and chocolate",
+    "price": "5.50",
+    "img": "../img/coffee-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Coffee with cognac",
+    "body": "Fragrant black coffee with cognac and whipped cream",
+    "price": "6.50",
+    "img": "../img/coffee-8.png"
+  }
+]
