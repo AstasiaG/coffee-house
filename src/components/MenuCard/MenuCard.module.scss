@@ -13,6 +13,9 @@
     height: 31rem;
     border-radius: 4rem;
     overflow: hidden;
+    position: relative;
+    top: -0.1rem;
+    left: -0.1rem;
 
     & img {
       width: 100%;

@@ -1,0 +1,28 @@
+@use '../../../styles/components/general';
+
+.tab {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1.6rem 0.8rem 0.8rem;
+  background: general.$bg;
+  color: general.$dark;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+  border: 0.1rem solid general.$border-light;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease;
+
+  & img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  &.active {
+    color: general.$text-light;
+    background: general.$dark;
+  }
+}

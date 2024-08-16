@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "name": "S’mores Frappuccino",
-    "body": "This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.",
+    "name": "Moroccan",
+    "body": "Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint",
     "price": "4.50",
     "img": "../img/tea-1.png"
   },
   {
     "id": 2,
-    "name": "Caramel Macchiato",
-    "body": "Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.",
+    "name": "Ginger",
+    "body": "Original black tea with fresh ginger, lemon and honey",
     "price": "5.00",
     "img": "../img/tea-2.png"
   },
   {
     "id": 3,
-    "name": "Ice coffee",
-    "body": "A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.",
+    "name": "Cranberry",
+    "body": "Invigorating black tea with cranberry and honey",
     "price": "5.00",
     "img": "../img/tea-3.png"
   },
   {
     "id": 4,
-    "name": "Ice coffee",
-    "body": "A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.",
+    "name": "Sea buckthorn",
+    "body": "Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon",
     "price": "5.50",
     "img": "../img/tea-4.png"
   }
