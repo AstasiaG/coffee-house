@@ -56,7 +56,6 @@ export const Home = () => {
           <img src={about3} alt='' />
           <img src={about4} alt=''/>
         </div>
-        <Slider slides={ slides } setSlides={setSlides}/>
       </section>
 
       <section className='mobileApp'>

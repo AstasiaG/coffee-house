@@ -1,0 +1,50 @@
+@use '../../styles/components/general';
+
+.card {
+  width: 31rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4rem;
+  border: 0.1rem solid general.$border-light;
+  cursor: pointer;
+
+  &__img {
+    width: 31rem;
+    height: 31rem;
+    border-radius: 4rem;
+    overflow: hidden;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover {
+    & img {
+      transform: scale(1);
+    }
+  }
+
+
+  &__content {
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .name,
+  .price {
+    @include general.title-s;
+  }
+
+  .price {
+    margin: auto 2rem 1.2rem 2rem;
+  }
+
+  .text {
+    @include general.text;
+    margin: 1.2rem 0;
+  }
+}
