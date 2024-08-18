@@ -1,14 +1,13 @@
 import React from 'react'
 import cl from './Tab.module.scss'
 
-export const Tab = ({img, text, changeItems, activeTab, id}) => {
+export const Tab = ({children, text, activeTab, id, ...props}) => {
   return (
     <button
       className={`${cl.tab} ${activeTab === id ? cl.active : ""}`}
-      onClick={() => changeItems(id)}
+      {...props}
     >
-      <img src={img} alt={text}></img>
-      {text}
+      {children}
     </button>
   )
 }

@@ -4,55 +4,279 @@
     "name": "Irish coffee",
     "body": "Fragrant black coffee with Jameson Irish whiskey and whipped milk",
     "price": "7.00",
-    "img": "../img/coffee-1.png"
+    "img": "../img/coffee-1.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Kahlua coffee",
     "body": "Classic coffee with milk and Kahlua liqueur under a cap of frothed milk",
     "price": "7.00",
-    "img": "../img/coffee-2.png"
+    "img": "../img/coffee-2.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Honey raf",
     "body": "Espresso with frothed milk, cream and aromatic honey",
     "price": "5.50",
-    "img": "../img/coffee-3.png"
+    "img": "../img/coffee-3.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Ice cappuccino",
     "body": "Cappuccino with soft thick foam in summer version with ice",
     "price": "5.00",
-    "img": "../img/coffee-4.png"
+    "img": "../img/coffee-4.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Espresso",
     "body": "Classic black coffee",
     "price": "4.50",
-    "img": "../img/coffee-5.png"
+    "img": "../img/coffee-5.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Latte",
     "body": "Espresso coffee with the addition of steamed milk and dense milk foam",
     "price": "5.50",
-    "img": "../img/coffee-6.png"
+    "img": "../img/coffee-6.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Latte macchiato",
     "body": "Espresso with frothed milk and chocolate",
     "price": "5.50",
-    "img": "../img/coffee-7.png"
+    "img": "../img/coffee-7.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   },
   {
     "id": 8,
     "name": "Coffee with cognac",
     "body": "Fragrant black coffee with cognac and whipped cream",
     "price": "6.50",
-    "img": "../img/coffee-8.png"
+    "img": "../img/coffee-8.png",
+    "adds": [
+      {
+        "id": "Sugar",
+        "name": "Sugar"
+      },
+      {
+        "id": "Cinnamon",
+        "name": "Cinnamon"
+      },
+      {
+        "id": "Syrup",
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
   }
 ]

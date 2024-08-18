@@ -4,7 +4,7 @@ import cl from './MenuCard.module.scss'
 export const MenuCard = ({ ...props }) => {
   
   return (
-    <div className={cl.card}>
+    <div className={cl.card} {...props}>
       <div className={cl.card__img}>
         <img src={props.img} alt={`coffee-${props.id}`}></img>
       </div>

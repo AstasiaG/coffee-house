@@ -25,7 +25,7 @@ export const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href='#0' className='link'>
+              <a href='#app' className='link'>
                 Mobile app
               </a>
             </li>

@@ -58,7 +58,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className='mobileApp'>
+      <section className='mobileApp' id="app">
         <div className='mobileApp__left'>
           <h2 className='title'>
             <span>Download </span>

@@ -25,4 +25,15 @@
     color: general.$text-light;
     background: general.$dark;
   }
+
+  & div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: general.$border-light;
+    border-radius: 50%;
+    color: general.$black;
+  }
 }
