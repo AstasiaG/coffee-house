@@ -31,7 +31,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className='favorites'>
+      <section className='favorites' id="favorite">
         <h2 className='title'>
           Choose your
           <span> favorite </span>
@@ -40,7 +40,7 @@ export const Home = () => {
         <Slider slides={ slides } setSlides={setSlides}/>
       </section>
 
-      <section className='about'>
+      <section className='about' id="about">
         <h2 className='title'>
           Resource is <span>the perfect and cozy place </span>
           where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.

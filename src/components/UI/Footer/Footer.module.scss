@@ -13,6 +13,12 @@
     padding: 10rem;
     background-color: general.$dark;
     border-radius: 4rem;
+
+    @media (max-width: 76.8em) {
+      padding: 10rem 6rem;
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 
   &__left {

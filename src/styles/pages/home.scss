@@ -4,6 +4,10 @@
   position: relative;
   padding: 10rem;
 
+  @media (max-width: 76.8em) {
+    padding: 10rem 6rem;
+  }
+
   &__image {
     position: absolute;
     top: 0;
@@ -59,19 +63,32 @@
 .about {
 
   &__images {
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 4rem;
     height: 106rem;
 
+    @media (max-width: 76.8em) {
+      height: auto;
+    }
+
     & img {
-      width: 66rem;
+      width: calc(50% - 2rem);
       height: 59rem;
       border-radius: 2rem;
 
+      @media (max-width: 76.8em) {
+        width: 100%;
+      }
+
       &:not(:first-child,:last-child) {
         height: 43rem;
+
+        @media (max-width: 76.8em) {
+          display: none;
+        }
       }
     }
   }
@@ -82,8 +99,18 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 76.8em) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   &__left {
     width: 63rem;
+    
+    @media (max-width: 76.8em) {
+      width: 100%;
+      margin-bottom: 10rem;
+    }
   }
   
   & .text {
@@ -96,11 +123,10 @@
     display: flex;
     gap: 2rem;
   }
-}
 
-.favorites {
-  .title {
-    text-align: center;
-    margin-bottom: 4rem;
+  @media (max-width: 76.8em) {
+    & img {
+      width: 63rem;
+    }
   }
 }

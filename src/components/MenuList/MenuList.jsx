@@ -3,7 +3,7 @@ import { MenuCard } from '../MenuCard/MenuCard'
 
 export const MenuList = ({ items, setCard, setVisible }) => {
   return (
-    <div style={{ display: 'flex', gap: '4rem', flexWrap: 'wrap'}}>
+    <div style={{ display: 'flex', gap: '4rem', flexWrap: 'wrap', justifyContent: 'center'}}>
       {items.map((item) => 
         <MenuCard
           name={item.name}

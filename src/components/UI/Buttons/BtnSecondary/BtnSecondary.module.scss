@@ -2,11 +2,11 @@
 
 .secondary {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: center;
   border-radius: 10rem;
   border: 0.1rem solid general.$dark;
-  width: 20rem;
+  width: 100%;
   padding: 1.2rem 2rem;
   gap: 0.8rem;
   color: general.$black;
@@ -16,9 +16,13 @@
   color: general.$dark;
   cursor: pointer;
 
-  &:not( .secondary > svg) {
+  @media (max-width: 76.8em) {
     width: 100%;
-    justify-content: center;
+  }
+
+  &:has( > svg) {
+    width: 20rem;
+    justify-content: flex-start;
   }
 
   & svg {

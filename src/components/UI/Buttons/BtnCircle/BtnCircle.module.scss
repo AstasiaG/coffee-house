@@ -2,6 +2,7 @@
 
 .btnCircle {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 6rem;
@@ -36,12 +37,28 @@
     }
   }
 
+  & span {
+    display: block;
+    width: 1.6rem;
+    height: 0.15rem;
+    background-color: general.$black;
+    transition: transform 0.2s ease-out;
+
+    &:not(:last-child) {
+      margin-bottom: 0.7rem;
+    }
+  }
+
   &:hover {
     &.dark {
       background-color: general.$dark;
 
       & svg path {
         stroke: general.$text-light;
+      }
+
+      & span {
+        background-color: general.$bg;
       }
     }
 
@@ -53,4 +70,16 @@
       }
     }
   }
+
+  &.active {
+    & span {
+      transform-origin: center;
+      transform: translateY(0.45rem) rotate(45deg);
+    }
+    & span:last-child {
+      transform-origin: center;
+      transform: translateY(-0.45rem) rotate(-45deg);
+    }
+  }
+
 }
