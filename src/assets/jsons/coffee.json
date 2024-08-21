@@ -7,15 +7,15 @@
     "img": "../img/coffee-1.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -42,15 +42,15 @@
     "img": "../img/coffee-2.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -77,15 +77,15 @@
     "img": "../img/coffee-3.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -112,15 +112,15 @@
     "img": "../img/coffee-4.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -147,15 +147,15 @@
     "img": "../img/coffee-5.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -182,15 +182,15 @@
     "img": "../img/coffee-6.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -217,15 +217,15 @@
     "img": "../img/coffee-7.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],
@@ -252,15 +252,15 @@
     "img": "../img/coffee-8.png",
     "adds": [
       {
-        "id": "Sugar",
+        "id": 1,
         "name": "Sugar"
       },
       {
-        "id": "Cinnamon",
+        "id": 2,
         "name": "Cinnamon"
       },
       {
-        "id": "Syrup",
+        "id": 3,
         "name": "Syrup"
       }
     ],

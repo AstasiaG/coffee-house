@@ -5,7 +5,6 @@ import { SliderContext } from './Slider/Slider'
 
 export const SlidesList = () => {
   const { slides, activeSlide } = useContext(SliderContext);
-  console.log(activeSlide)
 
   return (
     <div className={cl.slides__wrapper} style={{ transform: `translateX(-${activeSlide * 100}%)` }}>

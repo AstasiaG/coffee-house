@@ -1,26 +1,21 @@
 import React, { useState } from 'react'
-import hero from '../assets/img/img-hero.png';
 import cup from '../assets/svg/coffee-cup.svg';
 import { Link } from 'react-router-dom';
 import classes from '../components/UI/Buttons/BtnPrimary/BtnPrimary.module.scss'
-import about from '../assets/img/about-1.png'
-import about2 from '../assets/img/about-2.png'
-import about3 from '../assets/img/about-3.png'
-import about4 from '../assets/img/about-4.png'
-import appImg from '../assets/img/mobile-screens.png'
 import { BtnSecondary } from '../components/UI/Buttons/BtnSecondary/BtnSecondary';
 import { Slider } from '../components/Slider/Slider';
 import slidesArr from '../assets/jsons/slider.json'
 
 export const Home = () => {
   const [slides, setSlides] = useState(slidesArr);
-  
+
 
   return (
     <main className='container'>
+
       <section className='hero'>
         <div className='hero__image'>
-          <img src={hero} alt=''/>
+          <img src='./img/img-hero.png' alt=''/>
         </div>
         <div className='hero__content'>
           <h2 className='title'><span className='title--i'>Enjoy</span> premium coffee at our charming cafe</h2>
@@ -51,15 +46,15 @@ export const Home = () => {
           where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.
         </h2>
         <div className='about__images'>
-          <img src={about} alt='' />
-          <img src={about2} alt='' />
-          <img src={about3} alt='' />
-          <img src={about4} alt=''/>
+          <img src='./img/about-1.png' alt='' />
+          <img src='./img/about-2.png' alt='' />
+          <img src='./img/about-3.png' alt='' />
+          <img src='./img/about-4.png' alt=''/>
         </div>
       </section>
 
-      <section className='mobileApp' id="app">
-        <div className='mobileApp__left'>
+      <section className='mobile' id="app">
+        <div className='mobile__left'>
           <h2 className='title'>
             <span>Download </span>
             our apps to start ordering
@@ -67,7 +62,7 @@ export const Home = () => {
           <p className='text'>
             Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are
           </p>
-          <div className='mobileApp__btns'>
+          <div className='mobile__btns'>
             <BtnSecondary>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M26.7073 18.6307C26.6704 14.6324 30.065 12.6872 30.2203 12.5966C28.2977 9.86366 25.3178 9.49026 24.2707 9.46048C21.7679 9.20369 19.3403 10.9206 18.0654 10.9206C16.765 10.9206 14.8017 9.48529 12.6858 9.52747C9.96293 9.56841 7.41566 11.1055 6.0186 13.4923C3.13542 18.359 5.28572 25.5108 8.04802 29.4446C9.42981 31.3712 11.0444 33.5223 13.1578 33.4466C15.2254 33.3635 15.9978 32.1614 18.4929 32.1614C20.9651 32.1614 21.6903 33.4466 23.8457 33.3983C26.0647 33.3635 27.4618 31.463 28.7952 29.519C30.392 27.3108 31.0333 25.1362 31.0588 25.0245C31.0066 25.0071 26.7493 23.4229 26.7073 18.6307Z" fill="#403F3D"/>
@@ -92,8 +87,8 @@ export const Home = () => {
             </BtnSecondary>
           </div>
         </div>
-        <div className='mobileApp__img'>
-          <img src={ appImg } alt=''/>
+        <div className='mobile__img'>
+          <img src='./img/mobile-screens.png' alt=''/>
         </div>
       </section>
     </main>

@@ -1,6 +1,5 @@
 @use '../components/general';
 
-
 .hero {
   position: relative;
   padding: 10rem;
@@ -43,7 +42,7 @@
 }
 
 .about,
-.mobileApp,
+.mobile,
 .favorites {
   & .title {
     @include general.title-m;
@@ -78,7 +77,7 @@
   }
 }
 
-.mobileApp {
+.mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;

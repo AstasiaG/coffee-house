@@ -26,6 +26,17 @@
     background: general.$dark;
   }
 
+  & input {
+    -webkit-appearance: none;
+    display: none;
+
+    &:checked {
+      .tab {
+
+      }
+    }
+  }
+
   & div {
     display: flex;
     justify-content: center;
