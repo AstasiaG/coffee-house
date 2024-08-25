@@ -11,13 +11,17 @@
   background: general.$backdrop;
 
   &__content {
-    width: 80rem;
+    max-width: 80rem;
     padding: 1.6rem;
     background: general.$bg;
     border-radius: 4rem;
 
     @media (max-width: 76.8em) {
       max-width: 68.8rem;
+    }
+
+    @media (max-width: 38em) {
+      max-width: 34.2rem;
     }
   }
 

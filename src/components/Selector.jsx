@@ -13,6 +13,7 @@ export const Selector = ({ items, styles, text, callback, activeTab }) => {
             onClick={() => 
               callback(prop.id)
             }
+            key={prop.id}
           >
             <div>{prop.id}</div>
             {prop.name}

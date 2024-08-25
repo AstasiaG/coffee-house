@@ -7,7 +7,6 @@ import {BtnCircle} from '../Buttons/BtnCircle/BtnCircle'
 
 export const Navbar = () => {
   const [visibleNav, setVisibleNav] = useState(false);
-  console.log(visibleNav)
 
   return (
     <header className={cl.header}>
@@ -16,25 +15,25 @@ export const Navbar = () => {
             <img src={logo} alt=''/>
           </Link>
         </div>
-        <nav className={visibleNav ? `${cl.header__nav} ${cl.active}` : cl.header__nav}>
+        <nav className={visibleNav ? `${cl.header__nav} ${cl.active}` : cl.header__nav} onClick={() => {visibleNav && setVisibleNav(false)}}>
           <ul className={cl.header__list}>
-            <li>
-              <a href='#favorite' className='link' onClick={() => setVisibleNav(!visibleNav)}>
+          <li>
+              <a href='#favorite' className='link'>
                 Favorite coffee
               </a>
             </li>
             <li>
-              <a href='#about' className='link' onClick={() => setVisibleNav(!visibleNav)}>
+              <a href='#about' className='link'>
                 About
               </a>
             </li>
             <li>
-              <a href='#app' className='link' onClick={() => setVisibleNav(!visibleNav)}>
+              <a href='#app' className='link'>
                 Mobile app
               </a>
             </li>
             <li>
-              <a href='#footer' className='link' onClick={() => setVisibleNav(!visibleNav)}>
+              <a href='#footer' className='link'>
                 Contact us
               </a>
             </li>

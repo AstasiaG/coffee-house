@@ -8,6 +8,10 @@
     padding: 10rem 6rem;
   }
 
+  @media (max-width: 38em) {
+    padding: 6rem 1.8rem;
+  }
+
   &__image {
     position: absolute;
     top: 0;
@@ -26,7 +30,9 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    width: 53rem;
+    max-width: 53rem;
+    width: 100%;
+  
 
     & .title {
       @include general.title;
@@ -57,6 +63,12 @@
       @include general.title-m--i;
       color: general.$text-accent;
     }
+  }
+}
+
+.favorites {
+  & .title {
+    text-align: center;
   }
 }
 
@@ -105,10 +117,10 @@
   }
 
   &__left {
-    width: 63rem;
+    max-width: 63rem;
+    width: 100%;
     
     @media (max-width: 76.8em) {
-      width: 100%;
       margin-bottom: 10rem;
     }
   }
@@ -122,11 +134,16 @@
   &__btns {
     display: flex;
     gap: 2rem;
+
+    @media (max-width: 38em) {
+      flex-direction: column;
+    }
   }
 
   @media (max-width: 76.8em) {
     & img {
-      width: 63rem;
+      max-width: 63rem;
+      width: 100%;
     }
   }
 }

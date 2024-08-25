@@ -2,7 +2,7 @@
 
 .menu {
   & .title {
-    width: max(80rem, 100%);
+    max-width: 80rem;
     text-align: center;
     @include general.title-m;
     margin: 0 auto 4rem;

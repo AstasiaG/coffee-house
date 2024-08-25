@@ -10,6 +10,7 @@ export const SliderContext = createContext();
 
 export const Slider = ({ slides }) => {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [touchPosition, setTouchPosition] = useState(null)
   
   const ScrollLeft = () => {
 
@@ -29,12 +30,42 @@ export const Slider = ({ slides }) => {
     )
   }
 
+  const handleTouchStart = (e) => {
+    const touchDown = e.touches[0].clientX;
+
+    setTouchPosition(touchDown);
+  }
+
+  const handleTouchMove = (e) => {
+    if (touchPosition === null) {
+      return;
+    }
+
+    const currentPosition = e.touches[0].clientX;
+    const direction = touchPosition - currentPosition;
+
+
+    if (direction > 5) {
+      ScrollRight();
+    }
+
+    if (direction < -5) {
+      ScrollLeft();
+    }
+
+    setTouchPosition(null);
+  }
+
   const ChangeSlide = (slide) => {
     setActiveSlide(slide);
   }
 
   return (
-    <div className={cl.slider}>
+    <div
+      className={cl.slider}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+    >
 
       <SliderContext.Provider
         value={{

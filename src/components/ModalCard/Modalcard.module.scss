@@ -9,6 +9,10 @@
     width: 31rem;
     height: 31rem;
     border-radius: 4rem;
+
+    @media (max-width: 38em) {
+      display: none;
+    }
   }
 
   &__content {
