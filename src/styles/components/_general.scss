@@ -203,4 +203,20 @@ section {
       background: $text-light;
     }
   }
+
+  &.active::after {
+    width: 100%;
+  }
+}
+
+.tab_list {
+  margin: 0 auto;
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 4rem;
+  width: fit-content;
+
+  @media (max-width: 38em) {
+    gap: 0.8rem;
+  }
 }

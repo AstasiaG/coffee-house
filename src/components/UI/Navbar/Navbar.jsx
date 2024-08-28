@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import cl from './Navbar.module.scss';
 import logo from '../../../assets/svg/logo.svg';
 import cup from '../../../assets/svg/coffee-cup.svg';
@@ -18,12 +18,16 @@ export const Navbar = () => {
         <nav className={visibleNav ? `${cl.header__nav} ${cl.active}` : cl.header__nav} onClick={() => {visibleNav && setVisibleNav(false)}}>
           <ul className={cl.header__list}>
           <li>
-              <a href='#favorite' className='link'>
+
+            <Link to='/' hash='#favorite' className='link'>
+              Favorite coffee
+            </Link>
+              {/* <a href='#favorite' className='link'>
                 Favorite coffee
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href='#about' className='link'>
+              <a href='/#about' className='link'>
                 About
               </a>
             </li>
@@ -38,13 +42,15 @@ export const Navbar = () => {
               </a>
             </li>
           </ul>
-          <Link
+          <NavLink
             to='/menu'
-            className='link'
+            className={({ isActive }) =>
+              isActive ? "link active" : "link"
+            }
           >
             Menu
             <img src={cup} alt='' />
-          </Link>
+          </NavLink>
       </nav>
       <BtnCircle
         dark={true}

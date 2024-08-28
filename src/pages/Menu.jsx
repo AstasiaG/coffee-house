@@ -76,7 +76,7 @@ export const Menu = () => {
           <span> amazing surprise</span>
         </h2>
         <TabsList tabs={tabs} activeTab={ activeTab } changeItems={changeItems}/>
-        <MenuList items={cards} setCard={setCard} setVisible={ setVisible} />
+        <MenuList items={cards} setCard={setCard} setVisible={setVisible} count={ 4 } />
       </section>
     </main>
   )

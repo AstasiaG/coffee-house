@@ -1,5 +1,4 @@
-import React, { useEffect, useState, createContext } from 'react'
-import {BtnCircle} from '../UI/Buttons/BtnCircle/BtnCircle'
+import React, { useState, createContext } from 'react'
 import cl from './Slider.module.scss'
 import { SlidesList } from '../SlidesList'
 import { SliderBtns } from '../UI/Buttons/SliderBtns/SliderBtns';
