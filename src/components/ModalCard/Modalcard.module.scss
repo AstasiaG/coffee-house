@@ -1,0 +1,85 @@
+@use '../../styles/components/general';
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  & img {
+    width: 31rem;
+    height: 31rem;
+    border-radius: 4rem;
+
+    @media (max-width: 38em) {
+      display: none;
+    }
+  }
+
+  &__content {
+    width: 100%;
+
+    & > .text {
+      margin-bottom: 2rem
+    }
+  }
+
+  .title {
+    @include general.title-s;
+    color: general.$black;
+    margin-bottom: 1.2rem;
+
+    & span {
+      display: inline-block;
+      margin-left: auto;
+    }
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid general.$border-light;
+    margin-bottom: 1.2rem;
+
+    & .title {
+      margin-bottom: 0;
+    }
+  }
+
+  .text {
+    @include general.text;
+    color: general.$black;
+  }
+
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+
+    &_wrap {
+      &:not(:last-child){
+        margin-bottom: 2rem;
+      }
+      & span {
+        display: block;
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 3.2rem;
+
+    & img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    & p {
+      @include general.text-s;
+      color: general.$black;
+    }
+  }
+}

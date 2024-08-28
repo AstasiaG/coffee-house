@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Moroccan",
+    "body": "Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint",
+    "price": "4.50",
+    "img": "../img/tea-1.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Sugar"
+      },
+      {
+        "id": 2,
+        "name": "Lemon"
+      },
+      {
+        "id": 3,
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ginger",
+    "body": "Original black tea with fresh ginger, lemon and honey",
+    "price": "5.00",
+    "img": "../img/tea-2.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Sugar"
+      },
+      {
+        "id": 2,
+        "name": "Lemon"
+      },
+      {
+        "id": 3,
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cranberry",
+    "body": "Invigorating black tea with cranberry and honey",
+    "price": "5.00",
+    "img": "../img/tea-3.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Sugar"
+      },
+      {
+        "id": 2,
+        "name": "Lemon"
+      },
+      {
+        "id": 3,
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sea buckthorn",
+    "body": "Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon",
+    "price": "5.50",
+    "img": "../img/tea-4.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Sugar"
+      },
+      {
+        "id": 2,
+        "name": "Lemon"
+      },
+      {
+        "id": 3,
+        "name": "Syrup"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "200 ml"
+      },
+      {
+        "id": "M",
+        "name": "300 ml"
+      },
+      {
+        "id": "L",
+        "name": "400 ml"
+      }
+    ]
+  }
+]

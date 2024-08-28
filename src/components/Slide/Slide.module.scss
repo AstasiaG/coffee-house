@@ -1,0 +1,33 @@
+@use '../../styles/components/general';
+
+.slide {
+  flex: 1 0 100%;
+
+  &__content {
+    max-width: 48rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
+    margin: 0 auto;
+
+    & img {
+      width: 100%;
+      height: 48rem;
+    }
+  }
+
+  &__name,
+  &__price {
+    @include general.title-s;
+  }
+
+  &__text {
+    @include general.text;
+  }
+
+  &.active {
+    
+  }
+}

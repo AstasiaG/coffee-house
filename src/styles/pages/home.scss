@@ -1,0 +1,149 @@
+@use '../components/general';
+
+.hero {
+  position: relative;
+  padding: 10rem;
+
+  @media (max-width: 76.8em) {
+    padding: 10rem 6rem;
+  }
+
+  @media (max-width: 38em) {
+    padding: 6rem 1.8rem;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    & img {
+      border-radius: 4rem;
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 53rem;
+    width: 100%;
+  
+
+    & .title {
+      @include general.title;
+      color: general.$text-light;
+    }
+
+    & .title--i {
+      @include general.title--i;
+      color: general.$text-accent;
+    }
+
+    & .text {
+      @include general.text;
+      color: general.$text-light;
+    }
+  }
+}
+
+.about,
+.mobile,
+.favorites {
+  & .title {
+    @include general.title-m;
+    color: general.$black;
+    margin-bottom: 4rem;
+
+    & span {
+      @include general.title-m--i;
+      color: general.$text-accent;
+    }
+  }
+}
+
+.favorites {
+  & .title {
+    text-align: center;
+  }
+}
+
+.about {
+
+  &__images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+    height: 106rem;
+
+    @media (max-width: 76.8em) {
+      height: auto;
+    }
+
+    & img {
+      width: calc(50% - 2rem);
+      height: 59rem;
+      border-radius: 2rem;
+
+      @media (max-width: 76.8em) {
+        width: 100%;
+      }
+
+      &:not(:first-child,:last-child) {
+        height: 43rem;
+
+        @media (max-width: 76.8em) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 76.8em) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__left {
+    max-width: 63rem;
+    width: 100%;
+    
+    @media (max-width: 76.8em) {
+      margin-bottom: 10rem;
+    }
+  }
+  
+  & .text {
+    @include general.text;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 2rem;
+
+    @media (max-width: 38em) {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 76.8em) {
+    & img {
+      max-width: 63rem;
+      width: 100%;
+    }
+  }
+}

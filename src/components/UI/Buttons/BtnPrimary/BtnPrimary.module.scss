@@ -1,0 +1,62 @@
+@use '../../../../styles/components/general';
+
+.primary {
+  display: flex;
+  width: 20rem;
+  padding: 2rem 4rem;
+  justify-content: center;
+  border-radius: 10rem;
+  background-color: general.$bg;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 150%;
+  color: general.$dark;
+  cursor: pointer;
+
+  & img {
+    margin-left: -2rem;
+    opacity: 0;
+    width: 2rem;
+    height: 2rem;
+    transform: translateX(2rem);
+    animation: 0.2s hide ease-in;
+  }
+
+  &:hover {
+    & img {
+      animation: 0.5s show ease-in-out;
+      display: block;
+      opacity: 1;
+      margin-left: 0.8rem;
+      transform: translateX(0rem);
+    }
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    margin-left: -2rem;
+    transform: translateX(2rem);
+  }
+
+  to {
+    margin-left: 0.8rem;
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes hide {
+  from {
+    margin-left: 0.8rem;
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+
+  to {
+    opacity: 0;
+    margin-left: -2rem;
+    transform: translateX(2rem);
+  }
+}

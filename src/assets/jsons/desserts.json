@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Marble cheesecake",
+    "body": "Philadelphia cheese with lemon zest on a light sponge cake and red currant jam",
+    "price": "3.50",
+    "img": "../img/dessert-1.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Red velvet",
+    "body": "Layer cake with cream cheese frosting",
+    "price": "4.00",
+    "img": "../img/dessert-2.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cheesecakes",
+    "body": "Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar",
+    "price": "4.50",
+    "img": "../img/dessert-3.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Creme brulee",
+    "body": "Delicate creamy dessert in a caramel basket with wild berries",
+    "price": "4.00",
+    "img": "../img/dessert-4.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Pancakes",
+    "body": "Tender pancakes with strawberry jam and fresh strawberries",
+    "price": "4.50",
+    "img": "../img/dessert-5.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Honey cake",
+    "body": "Classic honey cake with delicate custard",
+    "price": "4.50",
+    "img": "../img/dessert-6.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Chocolate cake",
+    "body": "Cake with hot chocolate filling and nuts with dried apricots",
+    "price": "5.50",
+    "img": "../img/dessert-7.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Black forest",
+    "body": "A combination of thin sponge cake with cherry jam and light chocolate mousse",
+    "price": "6.50",
+    "img": "../img/dessert-8.png",
+    "adds": [
+      {
+        "id": 1,
+        "name": "Berries"
+      },
+      {
+        "id": 2,
+        "name": "Nuts"
+      },
+      {
+        "id": 3,
+        "name": "Jam"
+      }
+    ],
+    "sizes": [
+      {
+        "id": "S",
+        "name": "50 g"
+      },
+      {
+        "id": "M",
+        "name": "100 g"
+      },
+      {
+        "id": "L",
+        "name": "200 g"
+      }
+    ]
+  }
+]

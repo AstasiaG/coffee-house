@@ -1,0 +1,14 @@
+@use '../../../styles/components/general';
+
+.item {
+  width: 4rem;
+  height: 0.4rem;
+  border-radius: 10rem;
+  background-color: general.$border-light;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &.active {
+    background: general.$dark !important;
+  }
+}

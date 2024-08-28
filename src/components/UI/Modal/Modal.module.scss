@@ -1,0 +1,33 @@
+@use '../../../styles/components/general';
+
+.modal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background: general.$backdrop;
+
+  &__content {
+    max-width: 80rem;
+    padding: 1.6rem;
+    background: general.$bg;
+    border-radius: 4rem;
+
+    @media (max-width: 76.8em) {
+      max-width: 68.8rem;
+    }
+
+    @media (max-width: 38em) {
+      max-width: 34.2rem;
+    }
+  }
+
+  &.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

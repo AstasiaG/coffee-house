@@ -1,0 +1,71 @@
+@use '../../../styles/components/general';
+
+.header {
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+
+  @media (max-width: 38em) {
+    padding: 2rem 1.6rem;
+  }
+
+  &__logo {
+    width: 10rem;
+    height: 6rem;
+  }
+
+  &__nav {
+    width: 100%;
+    display: flex;
+    
+    @media (max-width: 76.8em) {
+      display: none;
+
+      &.active {
+        position: fixed;
+        top: 10rem;
+        left: 0;
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100dvh;
+        padding: 6rem;
+        background-color: general.$bg;
+        touch-action: none;
+      }
+
+      & a {
+        margin: 0 auto;
+        flex: 0;
+      }
+    }
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    @media (max-width: 76.8em) {
+      flex-direction: column;
+      margin-bottom: 6rem;
+    }
+  }
+
+  & button {
+    width: 4.4rem;
+    height: 4.4rem;
+    display: none;
+
+    @media (max-width: 76.8em) {
+      display: flex;
+    }
+  }
+}
